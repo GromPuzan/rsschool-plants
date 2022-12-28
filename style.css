@@ -6,12 +6,19 @@ a {
     text-decoration: none;
     color: #010201;
 }
-.header {
-    width: 134px;
+body{
+    margin: 0;
+}
+.header{
+    display: block;
+    background: #EDF2EC;
+    margin: 0 auto;
 }
 .nav{
     display: flex;
     align-items: center;
+    justify-content: center;
+    height: 134px;
 }
 .logo {
     width: 52%;
@@ -27,13 +34,13 @@ a {
     width: 21px;
     height: 21px;
     left: 100px;
-    top: 35px;
+    top: 53px;
     background-image: url(./assets/icons/logo_vector.svg);
 }
 .nav-list {
     display: flex;
     justify-content: space-between;
-    flex-grow: 4;
+    flex-grow: 1;
     align-items: center;
     list-style-type: none;
     font-family: 'Inika';
@@ -42,4 +49,91 @@ a {
     font-size: 16px;
     line-height: 50px;
     text-decoration: none;
+}
+
+.welcome {
+    max-height: 532px;
+    padding-top: 62px;
+    padding-bottom: 62px;
+    background: #EDF2EC;
+}
+.welcome-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.welcome-item {
+    display: flex;
+    flex-direction: column;
+}
+.welcome-leafs{
+    width: 448.8px;
+    height: 407.36px;
+}
+.welcome-header {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #717171;
+}
+.welcome-green {
+    color: #499A18;
+}
+.welcome-descr {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #636060;
+}
+.welcome-btn {
+    margin-top: 48px;
+    width: 158px;
+    height: 44px;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.about {
+    max-height: 666px;
+    padding-top: 93px;
+    padding-bottom: 94px;
+}
+.about-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-header {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+}
+.about-orange {
+    color:#E06733
+}
+.about-green {
+    color:#499A18;
+}
+.about-descr {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
+}
+.about-plant {
+    width: 464px;
+    height: 479px;
 }
