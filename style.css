@@ -1,5 +1,6 @@
 .container {
-    max-width: 1440px;
+    max-width: 1220px;
+    width: 100%;
     margin: 0 auto;
 }
 a {
@@ -139,6 +140,7 @@ body{
 }
 .service {
     max-height: 1300px;
+    padding-bottom: 120px;
     background: #EDF2EC;
 
 }
@@ -171,7 +173,6 @@ body{
 }
 .service-items {
     padding-top: 90px;
-    padding-bottom: 120px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -180,7 +181,7 @@ body{
     width: 330px;
     height: 450px;
     border: 1px solid #E3E1D5;
-    border-radius: 0px 0px 20px 20px;
+    border-radius: 20px 20px 20px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
