@@ -29,6 +29,9 @@ p {
     margin-block-start: 0;
     margin-block-end: 0;
 }
+ul {
+    list-style-type: none;
+}
 .header{
     display: block;
     background: #EDF2EC;
@@ -354,4 +357,42 @@ p {
     line-height: 40px;
     letter-spacing: 0.05em;
     color: #717171;
+}
+.footer {
+    padding: 21px 0px;
+}
+.footer-link-github {
+    max-width: 167px;
+    width: 100%;
+    display: flex;
+    align-items:center;
+}
+.footer-link-rsschool {
+    max-width: 211px;
+    width: 100%;
+    margin-left: 24px;
+    display: flex;
+    align-items:center;
+}
+.footer-link-social {
+    max-width: 188px;
+    width: 100%;
+}
+.footer a{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000;
+}
+.social {
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 50px;
+}
+.social-img {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
 }
