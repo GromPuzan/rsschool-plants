@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inika&family=Inter:wght@400;600;700&display=swap" rel="stylesheet"> 
     <title>Plants</title>
+    <link rel="icon" href="./assets/icons/logo.svg" type="image/svg+xml">
 </head>
 <body>
     <header class="header">
@@ -21,22 +22,22 @@
                     </a>
                 </div>
                 <ul class="nav-list">
-                    <li class="nav-item"><a href="#home">Home</a></li>
-                    <li class="nav-item"><a href="#about">About us</a></li>
-                    <li class="nav-item"><a href="#service">Service</a></li>
-                    <li class="nav-item"><a href="#price">Price</a></li>
-                    <li class="nav-item"><a href="#contacts">Contacts</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link-active">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About us</a></li>
+                    <li class="nav-item"><a href="#service" class="nav-link">Service</a></li>
+                    <li class="nav-item"><a href="#prices" class="nav-link">Price</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
                 </ul>
                 </nav>
         </div>
     </header>
     <main class="main">
-        <section id="home" class="welcome">
+        <section class="welcome">
             <div class="container-flex">
-                <img src="./assets/img/leafs.png" alt="leafs" class="welcome-leafs">
+                <div class="welcome-leafs"></div>
                 <div class="welcome-item">
                     <h1 class="welcome-header">We grow <span class="welcome-green">plants</span> and give <br> you oxygen</h1>
-                    <div class="welcome-descr">Lorem Ipsum is simply dummy text of the printing and <br> typesetting industry. Lorem Ipsum has been the <br> industry’s standard dummy text ever since the 1500s.</div>
+                    <div class="welcome-descr">Lorem Ipsum is simply dummy text of the printing and <br> typesetting industry. Lorem Ipsum has been the <br> industry's standard dummy text ever since the 1500s.</div>
                     <button class="welcome-btn">
                         LEARN MORE
                     </button>
@@ -51,7 +52,7 @@
                         <span class="about-orange">professional<br>experienced</span> <span class="about-green">gardeners</span></h2>
                         <div class="about-descr">Lorem Ipsum is simply dummy text of the printing and <br> typesetting industry. Lorem Ipsum has been the industry's <br> standard dummy text ever since the 1500s, when an unknown <br> printer took a galley of type and scrambled it to make a type <br> specimen book. It has survived not only five centuries, but also <br> the leap into electronic typesetting, remaining essentially <br> unchanged.</div>
                     </div>
-                    <img src="./assets/img/houseplant 1.png" alt="plant" class="about-plant">
+                    <img src="./assets/img/houseplant.png" alt="plant" class="about-plant">
                 </div>
             </div>
         </section>
@@ -111,45 +112,52 @@
                 </ul>
             </div>
         </section>
-        <section class="prices">
+        <section id="prices" class="prices">
             <div class="container-flex">
                 <div class="prices-left">
                     <h2 class="prices-header">Prices</h2>
-                    <div class="prices-items">
-                        <div class="prices-item">
+                    <ul class="prices-items">
+                        <li class="prices-item">
                             <div class="prices-item_name">
                                 <p>Basics</p>
                             </div>
-                            <div class="prices-item_btn"></div>
-                        </div>
-                        <div class="prices-item">
+                            <div class="prices-item_btn">
+                                <span class="prices-item-arrow"></span>
+                            </div>
+                        </li>
+                        <li class="prices-item">
                             <div class="prices-item_name">
                                 <p>Standard</p>
                             </div>
-                            <div class="prices-item_btn"></div>
-                        </div>
-                        <div class="prices-item">
+                            <div class="prices-item_btn">
+                                <span class="prices-item-arrow"></span>
+                            </div>
+                        </li>
+                        <li class="prices-item">
                             <div class="prices-item_name">
                                 <p>Pro care</p>
                             </div>
-                            <div class="prices-item_btn"></div>
-                        </div>
-                    </div>
+                            <div class="prices-item_btn">
+                                <span class="prices-item-arrow"></span>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
                 <div class="prices-right">
-                    <h2 class="prices-right-header">Our best <span class="welcome-green">gardeners</span> are ready to help you</h2>
-                    <button class="prices-right-btn">Contact Us</button>
-                    <img src="./assets/img/leafs2.png" alt="leafs" class="prices-right-img">
+                    <h3 class="prices-right-header">Our best <span class="welcome-green">gardeners</span> are ready to help you</h3>
+                    <button class="prices-right-btn">Contact us</button>
+                    <div class="prices-right-img"></div>
+                    <!-- <img src="./assets/img/leafs2.png" alt="leafs" class="prices-right-img"> -->
                 </div>
             </div>
         </section>
-        <section class="contacts">
+        <section id="contacts" class="contacts">
             <div class="container-flex">
                 <div class="contacts-left">
                     <img src="./assets/img/woman.png" alt="woman" class="contacts-woman">
                 </div>
                 <div class="contacts-right">
-                    <h2 class="welcome-green">Contact Us</h2>
+                    <h2 class="welcome-green">Contact us</h2>
                     <div class="contacts-item">
                         <div class="contacts-item-name">City</div>
                         <div class="contacts-item-btn"></div>
@@ -160,7 +168,11 @@
     </main>
     <footer class="footer">
         <div class="container-flex">
-            <div class="footer-link-github">© 2022 github</div>
+            <a href="https://github.com/GromPuzan" class="footer-link-github">
+                © 
+                <span>2022</span> 
+                github
+            </a>
             <div class="footer-link-rsschool">
                 <a href="https://rs.school/js-stage0/" target="_blank">Rolling Scopes School</a>
             </div>
@@ -174,5 +186,6 @@
             </div>
         </div>
     </footer>
+    <script src="./index.js"></script>
 </body>
 </html>
