@@ -1,0 +1,12 @@
+@media (max-width: 767px) {
+    .container {
+        max-width: 668px;
+    }
+    .container-flex {
+        max-width: 668px;
+    }
+    .nav {
+        padding-top: 47.5px;
+        padding-bottom: 47.5px;
+    }
+}
