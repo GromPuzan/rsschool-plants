@@ -141,4 +141,23 @@
         width: 200px;
         height: 248px;
     }
+    /* FOOTER */
+    .footer {
+        padding-top: 33px;
+        padding-bottom: 18px;
+    }
+    .container-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-link-github {
+        margin-bottom: 16px;
+    }
+    .footer-link-rsschool {
+        margin-bottom: 16px;
+        margin-left: 0px;
+    }
+    .footer a {
+        line-height: 24.2px;
+    }
 }
