@@ -8,9 +8,12 @@
     }
     .container {
         max-width: 668px;
+        padding: 0px 50px;
+
     }
     .container-flex {
         max-width: 668px;
+        padding: 0px 50px;
     }
     .nav {
         padding-top: 47.5px;
@@ -56,6 +59,8 @@
     }
     .about-header {
         text-align: center;
+        margin: 0 auto;
+        padding-bottom: 50px;
     }
     .about-plant {
         width: 250px;
@@ -159,5 +164,87 @@
     }
     .footer a {
         line-height: 24.2px;
+    }
+}
+
+
+@media (max-width: 380px) {
+    .container {
+        max-width: 380px;
+        padding: 0px 25px;
+
+    }
+    .container-flex {
+        max-width: 380px;
+        padding: 0px 25px;
+    }
+    .nav-list {
+        position: fixed;
+        flex-direction: column;
+        top: 0;
+        left: -100%;
+        width: 50%;
+        height: 100vh;
+        padding: 20px 15px;
+        background-color: rgba(29%, 60%, 9%, 1);
+        transition: 0.5s all;
+    }
+    .nav-list_active {
+        left: 0;
+    }
+    .nav {
+        padding: 36px 0px;
+    }
+    .hamb {
+        display: flex;
+        align-items: center;
+    }
+    .hamb-field {
+        width: 40px;
+        height: 24px;
+        cursor: pointer;
+        background: #EDF2EC;
+      }
+    .bar {
+        display: block;
+        height: 0px;
+        border: 1px solid #717171;
+        margin-bottom: 5px;
+    }
+    .bar:last-child {
+        margin-bottom: 0px;
+    }
+    .bar_active:first-child {
+        transform: rotate(-45deg);
+    }
+    .bar_active:nth-child(2) {
+        display: none;
+    }
+    .bar_active:nth-child(3) {
+        display: none;
+    }
+    .bar_active:nth-child(4) {
+        transform: rotate(45deg);
+        margin-top: -6px;
+    }
+    /* WELCOME */
+    .welcome-leafs {
+        display: none;
+    }
+    .welcome-item {
+        margin-top: 24px;
+    }
+    .welcome-header {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 20.36px;
+    }
+    .welcome-btn {
+        width: 100px;
+        margin-top: 20.08px;
+        margin-bottom: 24px;
+        padding: 4px 15px;
+        font-size: 10px;
+        line-height: 20px;
     }
 }
