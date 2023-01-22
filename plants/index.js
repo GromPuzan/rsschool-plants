@@ -3,15 +3,16 @@ window.addEventListener('DOMContentLoaded', () => {
     const menu = document.querySelector('.nav-list'),
     navItem = document.querySelectorAll('.nav-item'),
     hamburger = document.querySelector('.hamb');
-    bar = document.querySelector('.bar');
+    menuActive = document.querySelector('.nav-list_active')
 
     hamburger.addEventListener('click', () => {
-        bar.classList.toggle('bar_active');
+        hamburger.classList.toggle('hamb_active');
         menu.classList.toggle('nav-list_active');
     });
 
     navItem.forEach(item => {
         item.addEventListener('click', () => {
+            hamburger.classList.toggle('hamb_active');
             menu.classList.toggle('nav-list_active');
         })
     })
