@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inika&family=Inter:wght@400;600;700&display=swap" rel="stylesheet"> 
@@ -21,19 +22,25 @@
                         <p class="logo-text">Plants</p>
                     </a>
                 </div>
-                <ul class="nav-list">
+                <ul class="nav-list" id="nav">
                     <li class="nav-item"><a href="#" class="nav-link-active">Home</a></li>
                     <li class="nav-item"><a href="#about" class="nav-link">About us</a></li>
                     <li class="nav-item"><a href="#service" class="nav-link">Service</a></li>
                     <li class="nav-item"><a href="#prices" class="nav-link">Price</a></li>
                     <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
                 </ul>
+                <div class="hamb">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
                 </nav>
         </div>
     </header>
     <main class="main">
         <section class="welcome">
-            <div class="container-flex">
+            <div class="container-flex welcome-container">
                 <div class="welcome-leafs"></div>
                 <div class="welcome-item">
                     <h1 class="welcome-header">We grow <span class="welcome-green">plants</span> and give <br> you oxygen</h1>
@@ -49,7 +56,7 @@
                 <div class="about-wrapper">
                     <div class="about-item">
                         <h2 class="about-header"><span class="about-green">We are</span> 
-                        <span class="about-orange">professional<br>experienced</span> <span class="about-green">gardeners</span></h2>
+                        <span class="about-orange">professional <br>experienced</span> <span class="about-green">gardeners</span></h2>
                         <div class="about-descr">Lorem Ipsum is simply dummy text of the printing and <br> typesetting industry. Lorem Ipsum has been the industry's <br> standard dummy text ever since the 1500s, when an unknown <br> printer took a galley of type and scrambled it to make a type <br> specimen book. It has survived not only five centuries, but also <br> the leap into electronic typesetting, remaining essentially <br> unchanged.</div>
                     </div>
                     <img src="./assets/img/houseplant.png" alt="plant" class="about-plant">
@@ -113,7 +120,7 @@
             </div>
         </section>
         <section id="prices" class="prices">
-            <div class="container-flex">
+            <div class="container-flex container-prices">
                 <div class="prices-left">
                     <h2 class="prices-header">Prices</h2>
                     <ul class="prices-items">
@@ -151,12 +158,12 @@
             </div>
         </section>
         <section id="contacts" class="contacts">
-            <div class="container-flex">
+            <div class="container-flex container-contacts">
                 <div class="contacts-left">
                     <img src="./assets/img/woman.png" alt="woman" class="contacts-woman">
                 </div>
                 <div class="contacts-right">
-                    <h2 class="welcome-green">Contact us</h2>
+                    <h2 class="welcome-green contacts-header">Contact us</h2>
                     <div class="contacts-item">
                         <div class="contacts-item-name">City</div>
                         <div class="contacts-item-btn"></div>
@@ -166,7 +173,7 @@
         </section>
     </main>
     <footer class="footer">
-        <div class="container-flex">
+        <div class="container-flex container-footer">
             <a href="https://github.com/GromPuzan" class="footer-link-github">
                 © 
                 <span>2022</span> 
