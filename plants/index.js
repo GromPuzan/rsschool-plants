@@ -4,6 +4,8 @@ window.addEventListener('DOMContentLoaded', () => {
     navItem = document.querySelectorAll('.nav-item'),
     hamburger = document.querySelector('.hamb');
     menuActive = document.querySelector('.nav-list_active')
+    serviceItem = document.querySelector('.service-item')
+    serviceBtn = document.querySelector('.service-btn')
 
     hamburger.addEventListener('click', () => {
         hamburger.classList.toggle('hamb_active');
@@ -15,5 +17,9 @@ window.addEventListener('DOMContentLoaded', () => {
             hamburger.classList.toggle('hamb_active');
             menu.classList.toggle('nav-list_active');
         })
+    })
+    serviceBtn.addEventListener('click', () => {
+        serviceBtn.classList.toggle('service-btn_active')
+        serviceItem.classList.toggle('service-item_blur')
     })
 })

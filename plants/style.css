@@ -51,6 +51,9 @@ button:hover {
     cursor: pointer;
     transition: 0.5s;
 }
+button:active {
+    box-shadow: 2px 2px 5px #fc894d;
+}
 .hamb {
     display: none;
 }
@@ -214,6 +217,10 @@ button:hover {
     font-size: 20px;
     line-height: 26px;
     color: #E06733;
+}
+.service-btn_active {
+    background-color: #e06733;
+    color: #fff;
 }
 .service-btn:last-child {
     margin-right: 0px;
