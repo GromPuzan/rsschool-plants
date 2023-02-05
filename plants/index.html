@@ -68,48 +68,48 @@
                 <div class="service-content">
                     <h2 class="service-header">Service and our <br> projects</h2>
                     <div class="service-btns">
-                        <button class="service-btn">Gardens</button>
+                        <button class="service-btn" id="garden-btn">Gardens</button>
                         <button class="service-btn">Lawn</button>
                         <button class="service-btn">Planting</button>
                     </div>
                 </div>
                 <ul class="service-items">
-                    <li class="service-item">
+                    <li class="service-item" data ="Gardens">
                         <img src="./assets/img/first.png" alt="first" class="service-item_img">
                         <div class="service-item_text">
                             <h3 class="service-item_header">Garden care</h3>
                             <p class="service-item_descr">Lorem Ipsum has been the industry</p>
                         </div>
                     </li>
-                    <li class="service-item">
+                    <li class="service-item" data ="Planting">
                         <img src="./assets/img/second.png" alt="second" class="service-item_img">
                         <div class="service-item_text">
                             <h3 class="service-item_header">Planting</h3>
                             <p class="service-item_descr">Lorem Ipsum has been the industry</p>
                         </div>
                     </li>
-                    <li class="service-item">
+                    <li class="service-item" data ="Lawn">
                         <img src="./assets/img/third.png" alt="third" class="service-item_img">
                         <div class="service-item_text">
                             <h3 class="service-item_header">Lawn care</h3>
                             <p class="service-item_descr">Lorem Ipsum has been the industry</p>
                         </div>
                     </li>
-                    <li class="service-item">
+                    <li class="service-item" data ="Planting">
                         <img src="./assets/img/fourth.png" alt="fourth" class="service-item_img">
                         <div class="service-item_text">
                             <h3 class="service-item_header">Planting</h3>
                             <p class="service-item_descr">Lorem Ipsum has been the industry</p>
                         </div>
                     </li>
-                    <li class="service-item">
+                    <li class="service-item" data ="Gardens">
                         <img src="./assets/img/fifth.png" alt="fifth" class="service-item_img">
                         <div class="service-item_text">
                             <h3 class="service-item_header">Garden care</h3>
                             <p class="service-item_descr">Lorem Ipsum has been the industry</p>
                         </div>
                     </li>
-                    <li class="service-item">
+                    <li class="service-item" data ="Planting">
                         <img src="./assets/img/sixth.png" alt="sixth" class="service-item_img">
                         <div class="service-item_text">
                             <h3 class="service-item_header">Planting</h3>
@@ -125,27 +125,60 @@
                     <h2 class="prices-header">Prices</h2>
                     <ul class="prices-items">
                         <li class="prices-item">
-                            <div class="prices-item_name">
-                                <p>Basics</p>
-                            </div>
-                            <div class="prices-item_btn">
-                                <span class="prices-item-arrow"></span>
+                            <label class="prices-item-tab">
+                                <div class="prices-item_name">
+                                    <p>Basics</p>
+                                </div>
+                                <div class="prices-item_btn">
+                                    <span class="prices-item-arrow"></span>
+                                </div>
+                            </label>
+                            <div class="prices-item-accord">
+                                <p class="prices-item-accord-descr">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                                <p class="prices-item-accord-price">
+                                    <span class="prices-item-accord-price-procare">
+                                        15
+                                    </span>
+                                </p>
+                                <a href="#contacts" class="prices-item-accord-order">Order</a>
                             </div>
                         </li>
                         <li class="prices-item">
-                            <div class="prices-item_name">
-                                <p>Standard</p>
-                            </div>
-                            <div class="prices-item_btn">
-                                <span class="prices-item-arrow"></span>
+                            <label class="prices-item-tab">
+                                <div class="prices-item_name">
+                                    <p>Standard</p>
+                                </div>
+                                <div class="prices-item_btn">
+                                    <span class="prices-item-arrow"></span>
+                                </div>
+                            </label>
+                            <div class="prices-item-accord">
+                                <p class="prices-item-accord-descr">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                                <p class="prices-item-accord-price">
+                                    <span class="prices-item-accord-price-procare">
+                                        25
+                                    </span>
+                                </p>
+                                <a href="#contacts" class="prices-item-accord-order">Order</a>
                             </div>
                         </li>
                         <li class="prices-item">
-                            <div class="prices-item_name">
-                                <p>Pro care</p>
-                            </div>
-                            <div class="prices-item_btn">
-                                <span class="prices-item-arrow"></span>
+                            <label class="prices-item-tab">
+                                <div class="prices-item_name">
+                                    <p>Pro care</p>
+                                </div>
+                                <div class="prices-item_btn">
+                                    <span class="prices-item-arrow"></span>
+                                </div>
+                            </label>
+                            <div class="prices-item-accord">
+                                <p class="prices-item-accord-descr">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                                <p class="prices-item-accord-price">
+                                    <span class="prices-item-accord-price-procare">
+                                        35
+                                    </span>
+                                </p>
+                                <a href="#contacts" class="prices-item-accord-order">Order</a>
                             </div>
                         </li>
                     </ul>
@@ -164,10 +197,30 @@
                 </div>
                 <div class="contacts-right">
                     <h2 class="welcome-green contacts-header">Contact us</h2>
-                    <div class="contacts-item">
-                        <div class="contacts-item-name">City</div>
-                        <div class="contacts-item-btn"></div>
+                    <div class="contacts-select">
+                        <div class="contacts-item">
+                            <div class="contacts-item-name">City</div>
+                        </div>
+                        <div class="contacts-accord">
+                            <ul class="contacts-accord-cities">
+                                <li class="contacts-accord-city">Canandaigua, NY</li>
+                                <li class="contacts-accord-city">New York City</li>
+                                <li class="contacts-accord-city">Yonkers, NY</li>
+                                <li class="contacts-accord-city">Sherrill, NY</li> 
+                            </ul>
+                        </div>
+                        <div class="contacts-callus">
+                            <ul class="contacts-callus-list">
+                                <li class="contacts-callus-list-item"><span class="name">City:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>Canandaigua, NY</li>
+                                <li class="contacts-callus-list-item"><span class="name">Phone:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>+1	585	393 0001</li>
+                                <li class="contacts-callus-list-item"><span class="name">Office address:&nbsp&nbsp</span>151 Charlotte Street</li>
+                            </ul>
+                            <a href="tel:+15853930001">
+                                <button class="btn-callus">Call us</button>
+                            </a>
+                        </div>
                     </div>
+
                 </div>
             </div>
         </section>
