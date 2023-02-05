@@ -1,0 +1,512 @@
+@media (max-width: 1272px){
+    .container {
+        max-width: 986px;
+        padding: 0px 25px;
+
+    }
+    .container-flex {
+        max-width: 986px;
+        padding: 0px 25px;
+    }
+}
+
+
+
+@media (max-width: 1024px) {
+    br {
+        display: none;
+    }
+    .container {
+        max-width: 800px;
+        padding: 0px 20px;
+
+    }
+    .container-flex {
+        max-width: 800px;
+        padding: 0px 20px;
+    }
+    .welcome-leafs {
+        background-size: contain;
+    }
+    .about-plant {
+        width: 410px;
+        height: 370px;
+    }
+    .service-items {
+        justify-content: space-around;
+    }
+}
+@media (max-width: 850px){
+    .container {
+        max-width: 750px;
+        padding: 0px 20px;
+
+    }
+    .container-flex {
+        max-width: 750px;
+        padding: 0px 20px;
+    }
+    .about-plant {
+        width: 300px;
+        height: 300px;
+    }
+}
+@media (max-width: 785px) {
+    br {
+        display: none;
+    }
+    h2 {
+        font-size: 35px;
+        line-height: 45.61px;
+    }
+    .container {
+        max-width: 668px;
+        /* padding: 0px 50px; */
+
+    }
+    .container-flex {
+        max-width: 668px;
+        /* padding: 0px 50px; */
+    }
+    .nav {
+        padding-top: 47.5px;
+        padding-bottom: 47.5px;
+    }
+    .hamb {
+        display: none;
+    }
+    .bar {
+        display: none;
+    }
+    /* WELCOME */
+    .welcome-container {
+        flex-direction: row-reverse;
+    }
+    .welcome-item {
+        margin-top: 41px;
+        max-width: 346px;
+    }
+    .welcome-header {
+        font-size: 35px;
+        margin-bottom: 31px;
+    }
+    .welcome-descr {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .welcome-leafs {
+        margin-top: 41px;
+        width: 280px;
+        height: 254.15px;
+        background-image: url(./assets/img/leafs_768.png);
+    }
+    .welcome-btn {
+        margin-top: 31px;
+        margin-bottom: 71px;
+    }
+    /* ABOUT */
+    .about {
+        max-height: 783px;
+    }
+    .about-wrapper {
+        flex-direction: column;
+    }
+    .about-item {
+        padding-top: 40px;
+        height: 350px;
+        padding-bottom: 40px;
+    }
+    .about-header {
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+    .about-plant {
+        width: 250px;
+        height: 258px;
+        margin-bottom: 95px;
+    }
+    /* SERVICE */
+    .service {
+        padding-bottom: 70.77px;
+    }
+    .service-content {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 61px;
+        margin: 0 0 41px 0;
+    }
+    .service-header {
+        margin-bottom: 40px;
+    }
+    .service-items {
+        justify-content: space-between;
+    }
+    .service-item {
+        width: 281px;
+    }
+    .service-item:nth-child(-n + 4){
+        content: '';
+        margin-bottom: 38px;
+    }
+    .service-item:nth-child(n+4) {
+        margin-top: 0px;
+    }
+    .service-item_descr {
+        margin-bottom: 15px;
+        font-size: 17px;
+    }
+    .service-item-img {
+        width: 280px;
+    }
+    /* PRICES */
+    .prices {
+        padding-top: 42.42px;
+        padding-bottom: 91px;
+    }
+    .prices-header {
+        font-size: 35px;
+        line-height: 42.36px;
+        margin-left: 16px;
+    }
+    .prices-right {
+        margin-top: 99px;
+    }
+    .prices-right-header {
+        font-size: 25px;
+        line-height: 35px;
+        max-width: 296px;
+    }
+    .prices-right-btn {
+        margin-top: 25.59px;
+        margin-bottom: 34px;
+    }
+    .prices-items {
+        margin-top: 50px;
+    }
+    /* CONTACTS */
+    .container-contacts {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items:center;
+    }
+    .contacts-header {
+        font-size: 40px;
+        line-height: 52px;
+    }
+    .contacts-right {
+        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+
+    }
+    .contacts-item {
+        margin-top: 100px;
+        float: none;
+    }
+    .contacts-left {
+        padding-top: 0px;
+        margin-top: 250px;
+    }
+    .contacts-woman {
+        width: 200px;
+        height: 248px;
+        margin-left: 15px;
+    }
+    /* FOOTER */
+    .footer {
+        padding-top: 33px;
+        padding-bottom: 18px;
+    }
+    .container-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-link-github {
+        margin-bottom: 14px;
+    }
+    .footer-link-rsschool {
+        margin-bottom: 16px;
+        margin-left: 0px;
+    }
+    .footer a {
+        line-height: 24.2px;
+    }
+}
+@media (max-width: 705px) {
+    .container {
+        max-width: 550px;
+
+    }
+    .container-flex {
+        max-width: 550px;
+    }
+}
+@media (max-width: 590px) {
+    .container {
+        max-width: 450px;
+
+    }
+    .container-flex {
+        max-width: 450px;
+    }
+    .nav-list {
+        position: fixed;
+        flex-direction: column;
+        top: 0;
+        left: -100%;
+        width: 50%;
+        height: 100vh;
+        padding: 20px 15px;
+        background-color: rgba(29%, 60%, 9%, 1);
+        transition: 0.5s all;
+    }
+    .nav-list_active {
+        left: 0;
+    }
+    .nav {
+        padding: 36px 0px;
+    }
+    .hamb {
+        display: block;
+        width: 40px;
+        height: 24px;
+        cursor: pointer;
+        background: #EDF2EC;
+    }
+    .hamb span {
+        display: block;
+        height: 0px;
+        border: 1px solid #717171;
+        margin-bottom: 6px;
+    }
+    .bar:last-child {
+        margin-bottom: 0px;
+    }
+    .hamb_active span:first-child {
+        transform: rotate(-45deg);
+        margin-bottom: -1px;
+        transition: 0.3s;
+    }
+    .hamb_active span:nth-child(2) {
+        transform: rotate(45deg);
+        margin-bottom: 0px;
+        transition: 0.3s;
+    }
+    .hamb_active span:nth-child(3) {
+        display: none;
+    }
+    .hamb_active span:nth-child(4) {
+        display: none;
+    }
+}
+@media (max-width: 488px) {
+    .container {
+        max-width: 350px;
+        padding: 0px 25px;
+
+    }
+    .container-flex {
+        max-width: 350px;
+        padding: 0px 25px;
+    }
+    .container-prices {
+        flex-direction: column;
+    }
+    .prices {
+        padding-top: 25px;
+        padding-bottom: 40px;
+    }
+    .prices-left {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items:center;
+    }
+    .prices-header {
+        line-height: 30.26px;
+        text-align: center;
+        font-size: 25px;
+    }
+    .prices-items {
+        margin-top: 37px;
+        max-width: 180px;
+        padding: 28px 22px;
+    }
+    .prices-item {
+        margin-bottom: 13.92px;
+        padding: 14.91px 40px 14.91px 30px;
+    }
+    .prices-item_name {
+        font-size: 15px;
+    }
+    .prices-right {
+        margin-top: 19px;
+        align-items:center;
+    }
+    .prices-right-header {
+        font-size: 20px;
+        text-align: center;
+        width: 228px;
+    }
+    .prices-right-btn {
+        margin-top: 18px;
+        margin-bottom: 0;
+        padding: 8px 22px;
+        font-size: 15px;
+        line-height: 19.54px;
+    }
+    .prices-right-img {
+        display: none;
+    }
+    .about-header {
+        width: 350px;
+    }
+    .about-plant {
+        margin-top: 102px;
+    }
+}
+
+@media (max-width: 400px) {
+    html, body {
+        overflow-x: hidden;
+    }
+    .container {
+        max-width: 330px;
+        padding: 0px 25px;
+
+    }
+    .container-flex {
+        max-width: 330px;
+        padding: 0px 25px;
+    }
+    /* WELCOME */
+    .welcome-leafs {
+        display: none;
+    }
+    .welcome-item {
+        margin-top: 25.55px;
+    }
+    .welcome-header {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 23.36px;
+    }
+    .welcome-btn {
+        width: 100px;
+        margin-top: 23.08px;
+        margin-bottom: 26px;
+        padding: 4px 15px;
+        font-size: 10px;
+        line-height: 20px;
+    }
+    /* ABOUT */
+    .about-item {
+        padding-top: 29px;
+        height: 100%;
+        padding-bottom: 0px;
+
+    }
+    .about-header {
+        font-size: 25px;
+        line-height: 32px;
+        padding-bottom: 17px;
+        width: 288px;
+    }
+    .about-descr {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .about-plant {
+        width: 150px;
+        height: 147px;
+        margin-bottom: 30px;
+        margin-top: 4px;
+    }
+    /* SERVICE */
+    .service {
+        padding-bottom: 28px;
+    }
+    .service-content {
+        padding-top: 30px;
+    }
+    .service-header {
+        font-size: 25px;
+        line-height: 32.57px;
+        margin-bottom: 36px;
+        width: 190px;
+    }
+    .service-btn {
+        width: 121px;
+        height: 35px;
+        font-size: 15px;
+        margin-right: 10px;
+    }
+    .service-btn:first-child {
+        margin-bottom: 10px;
+    }
+    .service-items {
+        justify-content: center;
+    }
+    .service-item {
+        margin-bottom: 34px;
+    }
+    .service-item:nth-child(-n+4) {
+        margin-bottom: 34px;
+    }
+    .service-item:last-child {
+        margin-bottom: 0px;
+    }
+    /* PRICES */
+    .prices-header {
+        margin-left: 0px;
+    }
+    /* CONTACTS */
+    .contacts-right {
+        padding-top: 25px;
+    }
+    .contacts-header {
+        font-size: 25px;
+        line-height: 32.57px;
+    }
+    .contacts-item {
+        margin-top: 80px;
+        width: 91%;
+    }
+    .contacts-item::before {
+        top: 18px;
+        right: 22px;
+    }
+    .contacts-item::after {
+        top: 23px;
+        right: 28px;
+    }
+    .contacts-left {
+        margin-top: 132px;
+    }
+    .contacts-woman {
+        width: 100px;
+        height: 124.25px;
+        margin-left: 0px;
+    }
+    /* FOOTER */
+    .footer {
+        padding-top: 21px;
+        padding-bottom: 7px;
+    }
+    .footer-link-rsschool {
+        margin-bottom: 5px;
+    }
+}
+@media (max-width:360px) {
+    .container {
+        max-width: 280px;
+        padding: 0px 15px;
+
+    }
+    .container-flex {
+        max-width: 280px;
+        padding: 0px 15px;
+    }
+}
